@@ -3,15 +3,20 @@
     <head> <title>Matthew Lemoine</title></head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-    body {
-    margin: 0;
-    font-family: "Times New Roman", Times, serif;
+    p {
+    margin-left: 5px;
+    margin-right: 5px;
     }
 
-    p {
-    padding-left: 15px;
-    padding-right: 15px;
-    }
+    body {
+    height: 100%;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    } 
+
 
     .topnav {
     overflow: hidden;
@@ -38,10 +43,10 @@
     }
 
     .footer {
-        clear: both;
-        position: relative;
+        padding: 10px;
         background-color: lightblue;
-        padding: 3px;
+        position: relative;
+        clear: both;
     }
     </style>
 
@@ -55,11 +60,10 @@
     </div>
 <body>
 
-<h1 style="text-align:center;">Matthew Lemoine</h1>
-<h3 style="text-align:center;">PhD Student</h3>
-<h3 style="text-align:center;">Louisiana State University</h3>
-
-<img src = "Union_station.jpeg" alt="Me in Union Station, Chicago, Illinois" style="width: 300px;float:right;padding: 15px;">
+<div>
+    <h1 style="text-align:center;">Matthew Lemoine</h1>
+    <h3 style="text-align:center;">PhD Student at Louisiana State University</h3>
+</div>
 
 <p style="padding-top: 15px;">
     Hello! My name is Matthew Lemoine. I am a fourth year Mathematics Ph.D. student at <a href="https://www.math.lsu.edu/">Louisiana State University</a> in Baton Rouge, Louisiana. 
@@ -79,6 +83,13 @@
     Here is my <a href="https://drive.google.com/file/d/1T8kQ_KgWJvdYM0tCeFop3Fbb09BYPJm9/view?usp=drive_link">CV</a> 
     (Last updated 12/5/25).
 </p>
+
+<div style="text-align: center;">
+    <img src = "Union_station.jpeg" alt="Me in Union Station, Chicago, Illinois" style="width: 300px; padding: 15px;">
+    <p style="padding: 0;">
+        This is me at Union Station in Chicago, Illinois.
+    </p>
+</div>
 
 <div style="height: 50px;"></div>
 
