@@ -3,7 +3,7 @@
     <head> <title>Matthew Lemoine</title></head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-    p {
+    h2,h3,p {
     margin-left: 5px;
     margin-right: 5px;
     }
@@ -12,7 +12,14 @@
     height: 100%;
     margin: 0;
     font-family: "Times New Roman", Times, serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     } 
+
+    li {
+        padding-bottom: 10px;
+    }
 
     .topnav {
     overflow: hidden;
@@ -38,19 +45,11 @@
     color: white;
     }
 
-    h1{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-    h2{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
     .footer {
         padding: 10px;
         background-color: lightblue;
+        position: relative;
+        clear: both;
     }
     </style>
 
@@ -96,7 +95,7 @@
 
 <p>
     Below are talks that I have given. I have included the titles, abstracts, and where these talks were given along with the context that these talks were given.
-    <ol>
+    <ol reversed>
         <li> <i>"An Introduction to Topological Data Analysis with an Application"</i>
             <br>
             <ins>Abstract:</ins> In this talk, we will look at a thorough introduction to Topological Data Analysis and the tools that are used most frequently in this field. 
@@ -105,7 +104,40 @@
             This paper is joint work with Megan Fairchild. This talk is aimed at being accessible to undergraduate students interested in Topology and Data Analysis.
             <br>
             At Louisiana Tech University for Math Department Tea Time Talks (December 12, 2025) 
-</li>
+        </li>
+        <li>
+            <i>"Topological Data Analysis of Mortality Patterns During the COVID-19 Pandemic (joint work with M. Fairchild)"</i><br>
+            <ins>Abstract:</ins> This talk will be a brief overview of Topological Data Analysis and will go into some of the work that Megan and I have done. 
+            Topological Data Analysis is a relatively new field of study that uses topological invariants to study the shape of data. 
+            We analyze a dataset provided by the Centers for Disease Control and Prevention (CDC) using persistent homology and MAPPER. 
+            This dataset tracks mortality week-to-week from January 2020 to September 2023 in the United States during the COVID-19 pandemic. 
+            We examine the dataset as a whole and break the United States into geographic regions to analyze the overall shape of the data. 
+            Then, to explain this shape, we discuss events around the time of the pandemic and how they contribute to the observed patterns.<br>
+            At Lousisiana State University for the Informal Geometry and Topology Seminar (November 12, 2025)
+        </li>
+        <li>
+            <i>"Topological Data Analysis"</i><br>
+            <ins>Abstract:</ins> In this talk, I will outline my research interests and highlight the big pieces in TDA. 
+            I will also be in a breakout room for people with questions afterward. <br>
+            At LSU for the GEAUX First-year Math Graduate Student Orientation (August 13, 2025)
+        </li>
+        <li>
+            <i>"The Classification Theorem of Vector Bundles over Compact Spaces"</i><br>
+            <ins>Abstract:</ins> In the summer for the Informal Seminar, we pick a book/paper and we all present over different aspects of the book/paper. 
+            In the summer of 2025, we picked a book on K-Theory by Inna Zakharevich. <br>
+            At LSU for the Informal Geometry and Topology Seminar (June 12, 2025)
+        </li>
+        <li>
+            <i>"Topological Data Analysis and the Persistent Laplacian"</i><br>
+            <ins>Abstract:</ins> In this talk, we will go through some basic information about Topological Data Analysis (TDA) such as Persistent Homology with the goal of getting to the Persistent Laplacian and how these tools are used to analyze data.<br>
+            At LSU for the Informal Geometry and Topology Seminar (April 16, 2025)
+        </li>
+        <li>
+            <i>"A Brief Introduction to Khovanov Homology through an example"</i><br>
+            <ins>Abstract:</ins> In this talk, we will discuss Khovanov Homology and how to compute this homology using an example with the trefoil knot. 
+            We will also discuss the relations between Khovanov Homology and the Jones Polynomial.<br>
+            At LSU for the Informal Geometry and Topology Seminar (October 30, 2024)
+        </li>
     </ol>
 </p>
 
