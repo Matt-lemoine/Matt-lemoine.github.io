@@ -9,13 +9,13 @@ newFooter.innerHTML = `
     <img src = "Tech_logo.png" alt="Louisiana Tech logo" style="width: 100px;">
     </div>
 
-    <p> Matthew Lemoine<br>
+    <p style = "padding-left: 15px"> Matthew Lemoine<br>
         Graduate Teaching Assistant<br>
         LSU Math Department<br>
         341 Lockett Hall,<br>
         Baton Rouge, LA 70803<br>
         <a href="mailto:mlemo36@lsu.edu">mlemo36@lsu.edu</a></p>
-    <p><small> Website Last Updated: January 25, 2026 </small></p>
+    <p style = "padding-left: 15px"><small> Website Last Updated: January 25, 2026 </small></p>
 </p>
 `;
 
