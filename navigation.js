@@ -6,12 +6,11 @@ Navigation.innerHTML = `
 <style>
     .topnav {
     overflow: hidden;
-    background-color: #191970;
+    background-color: #72b6cf;
     }
 
     .topnav a {
-    float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
@@ -19,22 +18,17 @@ Navigation.innerHTML = `
     }
 
     .topnav a:hover {
-    background-color: #ddd;
+    background-color: #c7a8df;
     color: black;
-    }
-
-    .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
     }
 </style>
 <div class="topnav">
-    <a href="index.html">Matthew Lemoine</a>
-    <a href="Research.html">Research</a>
-    <a href="Teaching.html">Teaching</a>
-    <a href="OfficeHours.html">Office Hours</a>
-    <a href="Lagniappe.html">Lagniappe</a>
-    <a href="AboutMe.html">About Me</a>
+    <a style = "float: left; font-size: 19px" href="index.html">Matthew Lemoine</a>
+    <a style = "float: right;" href="AboutMe.html">About Me</a>
+    <a style = "float: right;" href="Lagniappe.html">Lagniappe</a>
+    <a style = "float: right;" href="OfficeHours.html">Office Hours</a>
+    <a style = "float: right;" href="Teaching.html">Teaching</a>
+    <a style = "float: right;" href="Research.html">Research</a>
 </div>
 `;
 
