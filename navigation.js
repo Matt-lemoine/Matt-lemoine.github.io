@@ -10,7 +10,7 @@ Navigation.innerHTML = `
     }
 
     .topnav a {
-    color: black;
+    color: #000000;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
@@ -23,7 +23,7 @@ Navigation.innerHTML = `
     }
 </style>
 <div class="topnav">
-    <a style = "float: left; font-size: 19px" href="index.html">Matthew Lemoine</a>
+    <a style = "float: left; font-size: 20px" href="index.html"><b>Matthew Lemoine</b></a>
     <a style = "float: right;" href="AboutMe.html">About Me</a>
     <a style = "float: right;" href="Lagniappe.html">Lagniappe</a>
     <a style = "float: right;" href="OfficeHours.html">Office Hours</a>
