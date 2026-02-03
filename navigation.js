@@ -23,7 +23,7 @@ Navigation.innerHTML = `
     }
 </style>
 <div class="topnav">
-    <a style = "float: left; font-size: 20px" href="index.html"><b>Matthew Lemoine</b></a>
+    <a style = "float: left;" href="index.html"><b>Matthew Lemoine</b></a>
     <a style = "float: right;" href="AboutMe.html">About Me</a>
     <a style = "float: right;" href="Lagniappe.html">Lagniappe</a>
     <a style = "float: right;" href="OfficeHours.html">Office Hours</a>
