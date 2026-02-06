@@ -15,7 +15,7 @@ newFooter.innerHTML = `
         341 Lockett Hall,<br>
         Baton Rouge, LA 70803<br>
         <a href="mailto:mlemo36@lsu.edu">mlemo36@lsu.edu</a></p>
-    <p style = "padding-left: 15px"><small> Website Last Updated: February 3, 2026 </small></p>
+    <p style = "padding-left: 15px"><small> Website Last Updated: February 6, 2026 </small></p>
 </p>
 `;
 
