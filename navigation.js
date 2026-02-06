@@ -25,6 +25,7 @@ Navigation.innerHTML = `
 <div class="topnav">
     <a style = "float: left;" href="index.html"><b>Matthew Lemoine</b></a>
     <a style = "float: right;" href="AboutMe.html">About Me</a>
+    <a style = "float: right;" href="Notes.html">Notes</a>
     <a style = "float: right;" href="Lagniappe.html">Lagniappe</a>
     <a style = "float: right;" href="OfficeHours.html">Office Hours</a>
     <a style = "float: right;" href="Teaching.html">Teaching</a>
