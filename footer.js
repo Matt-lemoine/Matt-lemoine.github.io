@@ -12,7 +12,7 @@ newFooter.innerHTML = `
     <p style = "padding-left: 15px"> Matthew Lemoine<br>
         Graduate Teaching Assistant<br>
         LSU Math Department<br>
-        125A Prescott Hall,<br>
+        363 Lockett Hall,<br>
         Baton Rouge, LA 70803<br>
         <a href="mailto:mlemo36@lsu.edu">mlemo36@lsu.edu</a></p>
     <p style = "padding-left: 15px"><small> Website Last Updated: July 14, 2026 </small></p>
