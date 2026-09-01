@@ -15,12 +15,12 @@ newFooter.innerHTML = `
         363 Lockett Hall,<br>
         Baton Rouge, LA 70803<br>
         <a href="mailto:mlemo36@lsu.edu">mlemo36@lsu.edu</a></p>
-    <p style = "padding-left: 15px"><small> Website Last Updated: August 17, 2026 </small></p>
+    <p style = "padding-left: 15px"><small> Website Last Updated: September 1, 2026 </small></p>
 </p>
 `;
 
 // Optional: Add some basic styling or a class for CSS
-newFooter.style.backgroundColor = '#add8e6';
+newFooter.style.backgroundColor = '#72b6cf';
 newFooter.style.color = 'black';
 newFooter.style.textAlign = 'left';
 newFooter.style.padding = '10px';
