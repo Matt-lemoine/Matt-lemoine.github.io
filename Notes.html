@@ -23,6 +23,39 @@
     li {padding-bottom: 10px;}
     </style>
 
+    <style>
+        /* The parent container holding all three videos */
+        .video-container {
+            display: flex;         /* Activates horizontal alignment */
+            gap: 15px;             /* Spacing between the columns */
+            width: 100%;           /* Full layout expansion */
+            max-width: 1200px;     /* Prevents layout from getting too wide on huge screens */
+            margin: 0 auto;        /* Centers the whole container on the screen */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Styling for each video item wrapper */
+        .video-item {
+            flex: 1;               /* Gives each video column equal width (roughly 33.33%) */
+            min-width: 0;          /* Prevents browser-specific sizing glitches */
+        }
+
+        /* Makes sure the video tags stay perfectly within their column blocks */
+        .video-item video {
+            width: 100%;           /* Forces the video to stretch to the width of its wrapper */
+            height: auto;          /* Maintains the natural 16:9 or 4:3 video aspect ratio */
+            border-radius: 8px;    /* Optional layout styling: rounds the corners */
+        }
+
+        /* Mobile responsiveness: stacks the videos vertically on small devices */
+        @media (max-width: 768px) {
+            .video-container {
+                flex-direction: column; /* Shifts layout row direction to vertical column */
+            }
+        }
+    </style>
+
 <body>
     <script src="navigation.js"></script>
     <main style="width: 80%; margin: auto;">
@@ -35,12 +68,35 @@
 
     <h2>Class Notes</h2>
 
-    <h2>Talk Notes</h2>
+    <h2>STEM Day 2026 Videos</h2>
 
-    <video controls style="display: block; margin: 0 auto; width: 600px;">
-        <source src="Heathly_ECG_Animation.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <div class="video-container">
+        
+        <!-- Video 1 -->
+        <div class="video-item">
+            <video controls>
+                <source src="Heathly_ECG_Animation.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-item">
+            <video controls>
+                <source src="Brug_Syd_Type_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-item">
+            <video controls>
+                <source src="Brug_Syd_Type_2_3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+    </div>
 
     <h2>Miscellaneous Notes</h2>    
 
