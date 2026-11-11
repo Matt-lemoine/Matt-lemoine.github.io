@@ -1,7 +1,7 @@
-// Create a new footer element
+// Create a new navigation element
 const Navigation = document.createElement('navigation');
 
-// Set the content of the footer
+// Set the content of the navigation tab
 Navigation.innerHTML = `
 <style>
     .topnav {
